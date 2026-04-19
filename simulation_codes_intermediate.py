@@ -1,9 +1,9 @@
 """
-Replication code for the simulation in Section 5.4 (Intermediate Substitutability)
-of "When to Promote, When to Continue" by Yamagata and Tajika.
+Replication code for the simulation in Section 5.2.3 (Intermediate Substitutability)
+of "Promotion, Continuation, and Reputational Volatility under Task-Ease Uncertainty" by Yamagata and Tajika.
 
-This script verifies the claim in the footnote to Proposition 4.
-The threshold condition in Proposition 4 (equation XX) depends on p_E:
+This script verifies the claim in the footnote to Proposition 5.
+The threshold condition in Proposition 5 (equation 2) depends on p_E:
 
   Delta_L / Delta_H > [Q(p_E) + (1 - 2Q(p_E)) Q_L(p_E)]
                        / [Q(p_E) + (1 - 2Q(p_E)) Q_H(p_E)]
@@ -146,7 +146,7 @@ for q_set in q_value_sets:
 # ---------------------------------------------------------------------------
 
 print("=" * 65)
-print("Simulation results for Proposition 4 (Intermediate Substitutability)")
+print("Simulation results for Proposition 5 (Intermediate Substitutability)")
 print("=" * 65)
 print(f"  Number of configurations:  {NUM_DRAWS}")
 print(f"  Random seed:               {SEED}")
