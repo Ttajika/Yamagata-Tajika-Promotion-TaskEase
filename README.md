@@ -5,3 +5,9 @@ This repository contains the code used in the paper "Promotion, Continuation, an
 ## Contents
 - simulation_codes_intermediate.py
     - Replication code for the simulation in Section 5.2.3 (Intermediate Substitutability).
+
+## Requirements
+- Python 3.x
+- NumPy
+
+Tested on Google Colab.
